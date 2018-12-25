@@ -49,9 +49,9 @@ Vue.use(VMultiCascader)
 ```html
 <!-- *.vue -->
 <template>
-	<el-form label-width="80px" ref="form" :model="form" :rules="rules" label-position="left">
+  <el-form label-width="80px" ref="form" :model="form" :rules="rules" label-position="left">
     <el-form-item label="ISP: " prop="isp">
-      <ele-multi-cascader
+      <v-multi-cascader
         :options="options"
         v-model="form.isp"
         placeholder="选择运营商"
@@ -64,7 +64,6 @@ Vue.use(VMultiCascader)
 </template>
 
 <script>
-
 export default {
   data() {
     return {

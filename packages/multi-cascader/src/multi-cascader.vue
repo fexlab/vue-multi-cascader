@@ -293,7 +293,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style>
 .v-cascader-popper-hide {
   display: none;
 }
