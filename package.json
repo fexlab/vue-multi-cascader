@@ -1,14 +1,34 @@
 {
   "name": "vue-multi-cascader",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "main": "src/main.js",
+  "author": {
+    "name": "咖啡猫",
+    "email": "18375006@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fexlab/vue-multi-cascader.git"
+  },
+  "homepage": "https://github.com/fexlab/vue-multi-cascader",
+  "bugs": "https://github.com/fexlab/vue-multi-cascader/issues",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "级联选择器",
+    "cascader",
+    "element",
+    "vue"
+  ],
   "dependencies": {
-    "vue": "^2.5.17"
+    "element-ui": "^2.4.11",
+    "vue": "^2.5.17",
+    "vue-click-outside": "^1.0.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",

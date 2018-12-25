@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import App from './App.vue'
+import VMultiCascader from './MultiCascader.vue';
 
-Vue.config.productionTip = false
+/* istanbul ignore next */
+VMultiCascader.install = function(Vue) {
+  Vue.component(VMultiCascader.name, VMultiCascader);
+};
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+export default VMultiCascader;
