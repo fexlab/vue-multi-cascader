@@ -9,17 +9,19 @@
 
 ### 安装
 
-推荐使用npm安装：
-
 ```shell
-npm install vue-multi-cascader
+npm install @felab/vue-multi-cascader
+
+// or
+
+yarn add @felab/vue-multi-cascader
 ```
 
 ###  使用
 
 ```js
 // main.js
-import VMultiCascader from "vue-multi-cascader"
+import VMultiCascader from "@felab/vue-multi-cascader"
 
 Vue.use(Element)
 Vue.use(VMultiCascader)

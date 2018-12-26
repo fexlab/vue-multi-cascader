@@ -26,22 +26,19 @@ export default {
                   "label": "安徽电信",
                   "id": 51,
                   "children": null,
-                  "value": 51,
-                  "checkbox": true
+                  "value": 51
                 },
                 {
                   "label": "福建电信",
                   "id": 52,
                   "children": null,
-                  "value": 52,
-                  "checkbox": true
+                  "value": 52
                 },
                 {
                   "label": "江苏电信",
                   "id": 53,
                   "children": null,
-                  "value": 53,
-                  "checkbox": true
+                  "value": 53
                 }
               ],
               "id": 11,
@@ -55,15 +52,13 @@ export default {
                   "label": "广东电信",
                   "id": 58,
                   "children": null,
-                  "value": 58,
-                  "checkbox": true
+                  "value": 58
                 },
                 {
                   "label": "广西电信",
                   "id": 59,
                   "children": null,
-                  "value": 59,
-                  "checkbox": true
+                  "value": 59
                 }
               ],
               "id": 12,
@@ -72,7 +67,8 @@ export default {
             }
           ],
           "id": 1,
-          "value": 1
+          "value": 1,
+          "checkbox": false
         },
         {
           "label": "联通",
@@ -84,22 +80,19 @@ export default {
                   "label": "安徽联通",
                   "id": 91,
                   "children": null,
-                  "value": 91,
-                  "checkbox": true
+                  "value": 91
                 },
                 {
                   "label": "福建联通",
                   "id": 92,
                   "children": null,
-                  "value": 92,
-                  "checkbox": true
+                  "value": 92
                 },
                 {
                   "label": "江苏联通",
                   "id": 93,
                   "children": null,
-                  "value": 93,
-                  "checkbox": true
+                  "value": 93
                 }
               ],
               "id": 21,
@@ -113,22 +106,19 @@ export default {
                   "label": "广东联通",
                   "id": 98,
                   "children": null,
-                  "value": 98,
-                  "checkbox": true
+                  "value": 98
                 },
                 {
                   "label": "广西联通",
                   "id": 99,
                   "children": null,
-                  "value": 99,
-                  "checkbox": true
+                  "value": 99
                 },
                 {
                   "label": "海南联通",
                   "id": 100,
                   "children": null,
-                  "value": 100,
-                  "checkbox": true
+                  "value": 100
                 }
               ],
               "id": 22,
@@ -138,7 +128,7 @@ export default {
           ],
           "id": 2,
           "value": 2,
-          "disabled": true
+          "checkbox": false
         },
         {
           "label": "移动",
@@ -150,8 +140,7 @@ export default {
                   "label": "安徽移动",
                   "id": 131,
                   "children": null,
-                  "value": 131,
-                  "checkbox": true
+                  "value": 131
                 }
               ],
               "id": 31,
@@ -165,22 +154,19 @@ export default {
                   "label": "广东移动",
                   "id": 138,
                   "children": null,
-                  "value": 138,
-                  "checkbox": true
+                  "value": 138
                 },
                 {
                   "label": "广西移动",
                   "id": 139,
                   "children": null,
-                  "value": 139,
-                  "checkbox": true
+                  "value": 139
                 },
                 {
                   "label": "海南移动",
                   "id": 140,
                   "children": null,
-                  "value": 140,
-                  "checkbox": true
+                  "value": 140
                 }
               ],
               "id": 32,
@@ -190,7 +176,7 @@ export default {
           ],
           "id": 3,
           "value": 3,
-          "disabled": true
+          "checkbox": false
         }
       ],
       outputs: {

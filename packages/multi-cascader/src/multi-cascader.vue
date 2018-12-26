@@ -35,7 +35,7 @@
             }"
             @click="spreadNext(item.children, index)">
             <el-checkbox
-              v-if="item.checkbox"
+              v-if="item.checkbox !== false"
               v-model="item.checked"
               :disabled="item.disabled"
               @change="checked => { checkedChange(item, index, checked) }">
@@ -165,7 +165,7 @@ export default {
     recursiveOpt(children) {
       const vm = this;
       children.forEach(child => {
-        if (child.checkbox) {
+        if (child.checkbox !== false) {
           child.checked = false;
           if (this.selectedValues.some(val => val + "" == child.value + "")) {
             this.selectedItems.push(child);
