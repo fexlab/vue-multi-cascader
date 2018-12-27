@@ -15,170 +15,7 @@
 export default {
   data() {
     return {
-      options: [
-        {
-          "label": "电信",
-          "children": [
-            {
-              "label": "华东电信",
-              "children": [
-                {
-                  "label": "安徽电信",
-                  "id": 51,
-                  "children": null,
-                  "value": 51
-                },
-                {
-                  "label": "福建电信",
-                  "id": 52,
-                  "children": null,
-                  "value": 52
-                },
-                {
-                  "label": "江苏电信",
-                  "id": 53,
-                  "children": null,
-                  "value": 53
-                }
-              ],
-              "id": 11,
-              "value": 11,
-              "disabled": true
-            },
-            {
-              "label": "华南电信",
-              "children": [
-                {
-                  "label": "广东电信",
-                  "id": 58,
-                  "children": null,
-                  "value": 58
-                },
-                {
-                  "label": "广西电信",
-                  "id": 59,
-                  "children": null,
-                  "value": 59
-                }
-              ],
-              "id": 12,
-              "value": 12,
-              "disabled": true
-            }
-          ],
-          "id": 1,
-          "value": 1,
-          "checkbox": false
-        },
-        {
-          "label": "联通",
-          "children": [
-            {
-              "label": "华东联通",
-              "children": [
-                {
-                  "label": "安徽联通",
-                  "id": 91,
-                  "children": null,
-                  "value": 91
-                },
-                {
-                  "label": "福建联通",
-                  "id": 92,
-                  "children": null,
-                  "value": 92
-                },
-                {
-                  "label": "江苏联通",
-                  "id": 93,
-                  "children": null,
-                  "value": 93
-                }
-              ],
-              "id": 21,
-              "value": 21,
-              "disabled": true
-            },
-            {
-              "label": "华南联通",
-              "children": [
-                {
-                  "label": "广东联通",
-                  "id": 98,
-                  "children": null,
-                  "value": 98
-                },
-                {
-                  "label": "广西联通",
-                  "id": 99,
-                  "children": null,
-                  "value": 99
-                },
-                {
-                  "label": "海南联通",
-                  "id": 100,
-                  "children": null,
-                  "value": 100
-                }
-              ],
-              "id": 22,
-              "value": 22,
-              "disabled": true
-            }
-          ],
-          "id": 2,
-          "value": 2,
-          "checkbox": false
-        },
-        {
-          "label": "移动",
-          "children": [
-            {
-              "label": "华东移动",
-              "children": [
-                {
-                  "label": "安徽移动",
-                  "id": 131,
-                  "children": null,
-                  "value": 131
-                }
-              ],
-              "id": 31,
-              "value": 31,
-              "disabled": true
-            },
-            {
-              "label": "华南移动",
-              "children": [
-                {
-                  "label": "广东移动",
-                  "id": 138,
-                  "children": null,
-                  "value": 138
-                },
-                {
-                  "label": "广西移动",
-                  "id": 139,
-                  "children": null,
-                  "value": 139
-                },
-                {
-                  "label": "海南移动",
-                  "id": 140,
-                  "children": null,
-                  "value": 140
-                }
-              ],
-              "id": 32,
-              "value": 32,
-              "disabled": true
-            }
-          ],
-          "id": 3,
-          "value": 3,
-          "checkbox": false
-        }
-      ],
+      options: [{"label":"本地生活","id":1001,"value":1001,"disabled":false,"checkbox":false,"children":[{"label":"本地生活","id":1001,"value":1001,"disabled":false,"checkbox":true},{"label":"宠物服务","id":1153,"value":1153,"disabled":false,"checkbox":true},{"label":"婚礼婚庆","id":1154,"value":1154,"disabled":false,"checkbox":true},{"label":"家政服务","id":1155,"value":1155,"disabled":false,"checkbox":true},{"label":"美食餐饮","id":1156,"value":1156,"disabled":false,"checkbox":true},{"label":"美业服务","id":1157,"value":1157,"disabled":false,"checkbox":true},{"label":"社区服务","id":1158,"value":1158,"disabled":false,"checkbox":true},{"label":"生活服务平台","id":1231,"value":1231,"disabled":false,"checkbox":true},{"label":"休闲生活","id":1279,"value":1279,"disabled":false,"checkbox":true},{"label":"校园服务","id":1281,"value":1281,"disabled":false,"checkbox":true},{"label":"养老服务","id":1282,"value":1282,"disabled":false,"checkbox":true},{"label":"共享服务","id":1283,"value":1283,"disabled":false,"checkbox":true},{"label":"无人零售","id":1284,"value":1284,"disabled":false,"checkbox":true},{"label":"其他","id":15008,"value":15008,"disabled":false,"checkbox":true}]},{"label":"电子商务","id":1002,"value":1002,"disabled":false,"checkbox":false,"children":[{"label":"电子商务","id":1002,"value":1002,"disabled":false,"checkbox":true},{"label":"3C电子","id":1159,"value":1159,"disabled":false,"checkbox":true},{"label":"服装服饰","id":1160,"value":1160,"disabled":false,"checkbox":true},{"label":"化妆品","id":1161,"value":1161,"disabled":false,"checkbox":true},{"label":"家居建材","id":1162,"value":1162,"disabled":false,"checkbox":true},{"label":"跨境电商","id":1163,"value":1163,"disabled":false,"checkbox":true},{"label":"快递物流","id":1164,"value":1164,"disabled":false,"checkbox":true},{"label":"母婴玩具","id":1165,"value":1165,"disabled":false,"checkbox":true},{"label":"奢侈品电商","id":1166,"value":1166,"disabled":false,"checkbox":true},{"label":"生鲜食品","id":1167,"value":1167,"disabled":false,"checkbox":true},{"label":"虚拟商品","id":1168,"value":1168,"disabled":false,"checkbox":true},{"label":"大宗商品","id":1238,"value":1238,"disabled":false,"checkbox":true},{"label":"生活服务","id":1275,"value":1275,"disabled":false,"checkbox":true},{"label":"综合电商","id":1276,"value":1276,"disabled":false,"checkbox":true},{"label":"电商服务平台","id":1277,"value":1277,"disabled":false,"checkbox":true},{"label":"其他","id":15002,"value":15002,"disabled":false,"checkbox":true}]},{"label":"房产服务","id":1003,"value":1003,"disabled":false,"checkbox":false,"children":[{"label":"房产服务","id":1003,"value":1003,"disabled":false,"checkbox":true},{"label":"装修装潢","id":1169,"value":1169,"disabled":false,"checkbox":true},{"label":"租房","id":1170,"value":1170,"disabled":false,"checkbox":true},{"label":"买房","id":1239,"value":1239,"disabled":false,"checkbox":true},{"label":"酒店公寓","id":1240,"value":1240,"disabled":false,"checkbox":true},{"label":"商业地产","id":1241,"value":1241,"disabled":false,"checkbox":true},{"label":"房产综合平台","id":1242,"value":1242,"disabled":false,"checkbox":true},{"label":"其他","id":15011,"value":15011,"disabled":false,"checkbox":true}]},{"label":"工具","id":1004,"value":1004,"disabled":false,"checkbox":false,"children":[{"label":"工具","id":1004,"value":1004,"disabled":false,"checkbox":true},{"label":"办公软件","id":1171,"value":1171,"disabled":false,"checkbox":true},{"label":"专业工具","id":1230,"value":1230,"disabled":false,"checkbox":true},{"label":"日常应用","id":1232,"value":1232,"disabled":false,"checkbox":true},{"label":"系统工具","id":1234,"value":1234,"disabled":false,"checkbox":true},{"label":"美图滤镜","id":1243,"value":1243,"disabled":false,"checkbox":true},{"label":"其他","id":15014,"value":15014,"disabled":false,"checkbox":true}]},{"label":"广告营销","id":1005,"value":1005,"disabled":false,"checkbox":false,"children":[{"label":"广告营销","id":1005,"value":1005,"disabled":false,"checkbox":true},{"label":"广告技术","id":1172,"value":1172,"disabled":false,"checkbox":true},{"label":"传统广告","id":1244,"value":1244,"disabled":false,"checkbox":true},{"label":"户外广告","id":1245,"value":1245,"disabled":false,"checkbox":true},{"label":"网络广告","id":1246,"value":1246,"disabled":false,"checkbox":true},{"label":"移动广告","id":1247,"value":1247,"disabled":false,"checkbox":true},{"label":"整合营销","id":1248,"value":1248,"disabled":false,"checkbox":true},{"label":"其他","id":15012,"value":15012,"disabled":false,"checkbox":true}]},{"label":"教育","id":1006,"value":1006,"disabled":false,"checkbox":false,"children":[{"label":"教育","id":1006,"value":1006,"disabled":false,"checkbox":true},{"label":"K12教育","id":1173,"value":1173,"disabled":false,"checkbox":true},{"label":"出国留学","id":1174,"value":1174,"disabled":false,"checkbox":true},{"label":"儿童早教","id":1175,"value":1175,"disabled":false,"checkbox":true},{"label":"语言学习","id":1176,"value":1176,"disabled":false,"checkbox":true},{"label":"职业培训","id":1177,"value":1177,"disabled":false,"checkbox":true},{"label":"大学生教育","id":1249,"value":1249,"disabled":false,"checkbox":true},{"label":"兴趣教育","id":1250,"value":1250,"disabled":false,"checkbox":true},{"label":"教育平台","id":1251,"value":1251,"disabled":false,"checkbox":true},{"label":"其他","id":15003,"value":15003,"disabled":false,"checkbox":true}]},{"label":"金融","id":1007,"value":1007,"disabled":false,"checkbox":false,"children":[{"label":"金融","id":1007,"value":1007,"disabled":false,"checkbox":true},{"label":"P2P","id":1178,"value":1178,"disabled":false,"checkbox":true},{"label":"保险","id":1179,"value":1179,"disabled":false,"checkbox":true},{"label":"第三方支付","id":1180,"value":1180,"disabled":false,"checkbox":true},{"label":"供应链金融","id":1181,"value":1181,"disabled":false,"checkbox":true},{"label":"众筹","id":1182,"value":1182,"disabled":false,"checkbox":true},{"label":"基金股票","id":1228,"value":1228,"disabled":false,"checkbox":true},{"label":"虚拟货币","id":1252,"value":1252,"disabled":false,"checkbox":true},{"label":"大数据征信","id":1253,"value":1253,"disabled":false,"checkbox":true},{"label":"借贷","id":1280,"value":1280,"disabled":false,"checkbox":true},{"label":"投融资对接","id":1285,"value":1285,"disabled":false,"checkbox":true},{"label":"金融科技","id":1305,"value":1305,"disabled":false,"checkbox":true},{"label":"其他","id":15005,"value":15005,"disabled":false,"checkbox":true}]},{"label":"旅游","id":1008,"value":1008,"disabled":false,"checkbox":false,"children":[{"label":"旅游","id":1008,"value":1008,"disabled":false,"checkbox":true},{"label":"出境游","id":1183,"value":1183,"disabled":false,"checkbox":true},{"label":"户外游","id":1184,"value":1184,"disabled":false,"checkbox":true},{"label":"交通住宿","id":1185,"value":1185,"disabled":false,"checkbox":true},{"label":"景点门票","id":1254,"value":1254,"disabled":false,"checkbox":true},{"label":"周边短途游","id":1255,"value":1255,"disabled":false,"checkbox":true},{"label":"国内长途游","id":1256,"value":1256,"disabled":false,"checkbox":true},{"label":"旅游平台","id":1257,"value":1257,"disabled":false,"checkbox":true},{"label":"其他","id":15006,"value":15006,"disabled":false,"checkbox":true}]},{"label":"企业服务","id":1009,"value":1009,"disabled":false,"checkbox":false,"children":[{"label":"企业服务","id":1009,"value":1009,"disabled":false,"checkbox":true},{"label":"行业解决方案","id":1186,"value":1186,"disabled":false,"checkbox":true},{"label":"开发者服务","id":1187,"value":1187,"disabled":false,"checkbox":true},{"label":"企业IT服务","id":1188,"value":1188,"disabled":false,"checkbox":true},{"label":"企业服务平台","id":1189,"value":1189,"disabled":false,"checkbox":true},{"label":"人力资源","id":1190,"value":1190,"disabled":false,"checkbox":true},{"label":"销售营销","id":1191,"value":1191,"disabled":false,"checkbox":true},{"label":"法律财会","id":1227,"value":1227,"disabled":false,"checkbox":true},{"label":"办公OA","id":1258,"value":1258,"disabled":false,"checkbox":true},{"label":"外包服务","id":1259,"value":1259,"disabled":false,"checkbox":true},{"label":"数据服务","id":1286,"value":1286,"disabled":false,"checkbox":true},{"label":"企业安全","id":1287,"value":1287,"disabled":false,"checkbox":true},{"label":"其他","id":15010,"value":15010,"disabled":false,"checkbox":true}]},{"label":"汽车交通","id":1010,"value":1010,"disabled":false,"checkbox":false,"children":[{"label":"汽车交通","id":1010,"value":1010,"disabled":false,"checkbox":true},{"label":"车主服务","id":1192,"value":1192,"disabled":false,"checkbox":true},{"label":"二手车","id":1193,"value":1193,"disabled":false,"checkbox":true},{"label":"驾校培训","id":1194,"value":1194,"disabled":false,"checkbox":true},{"label":"交通出行","id":1195,"value":1195,"disabled":false,"checkbox":true},{"label":"汽车服务平台","id":1196,"value":1196,"disabled":false,"checkbox":true},{"label":"汽车后服务","id":1197,"value":1197,"disabled":false,"checkbox":true},{"label":"车联网及硬件","id":1260,"value":1260,"disabled":false,"checkbox":true},{"label":"新车","id":1261,"value":1261,"disabled":false,"checkbox":true},{"label":"其他","id":15013,"value":15013,"disabled":false,"checkbox":true}]},{"label":"社交网络","id":1011,"value":1011,"disabled":false,"checkbox":false,"children":[{"label":"社交网络","id":1011,"value":1011,"disabled":false,"checkbox":true},{"label":"婚恋社交","id":1198,"value":1198,"disabled":false,"checkbox":true},{"label":"陌生人社交","id":1199,"value":1199,"disabled":false,"checkbox":true},{"label":"熟人社交","id":1200,"value":1200,"disabled":false,"checkbox":true},{"label":"同性社交","id":1229,"value":1229,"disabled":false,"checkbox":true},{"label":"商务社交","id":1235,"value":1235,"disabled":false,"checkbox":true},{"label":"校园社交","id":1236,"value":1236,"disabled":false,"checkbox":true},{"label":"兴趣社交","id":1237,"value":1237,"disabled":false,"checkbox":true},{"label":"其他","id":15001,"value":15001,"disabled":false,"checkbox":true}]},{"label":"医疗健康","id":1013,"value":1013,"disabled":false,"checkbox":false,"children":[{"label":"医疗健康","id":1013,"value":1013,"disabled":false,"checkbox":true},{"label":"基因检测","id":1211,"value":1211,"disabled":false,"checkbox":true},{"label":"健康管理","id":1212,"value":1212,"disabled":false,"checkbox":true},{"label":"新药研发","id":1213,"value":1213,"disabled":false,"checkbox":true},{"label":"形体健康","id":1214,"value":1214,"disabled":false,"checkbox":true},{"label":"药品电商","id":1215,"value":1215,"disabled":false,"checkbox":true},{"label":"专科服务","id":1216,"value":1216,"disabled":false,"checkbox":true},{"label":"医患问答","id":1262,"value":1262,"disabled":false,"checkbox":true},{"label":"医疗健康硬件","id":1263,"value":1263,"disabled":false,"checkbox":true},{"label":"医生服务","id":1264,"value":1264,"disabled":false,"checkbox":true},{"label":"医疗平台","id":1265,"value":1265,"disabled":false,"checkbox":true},{"label":"医疗信息化","id":1278,"value":1278,"disabled":false,"checkbox":true},{"label":"其他","id":15004,"value":15004,"disabled":false,"checkbox":true}]},{"label":"硬件","id":1014,"value":1014,"disabled":false,"checkbox":false,"children":[{"label":"硬件","id":1014,"value":1014,"disabled":false,"checkbox":true},{"label":"VR/AR设备","id":1217,"value":1217,"disabled":false,"checkbox":true},{"label":"出行工具","id":1218,"value":1218,"disabled":false,"checkbox":true},{"label":"电子数码","id":1219,"value":1219,"disabled":false,"checkbox":true},{"label":"机器人","id":1220,"value":1220,"disabled":false,"checkbox":true},{"label":"可穿戴设备","id":1221,"value":1221,"disabled":false,"checkbox":true},{"label":"无人机","id":1222,"value":1222,"disabled":false,"checkbox":true},{"label":"芯片及传感器","id":1223,"value":1223,"disabled":false,"checkbox":true},{"label":"医疗硬件","id":1226,"value":1226,"disabled":false,"checkbox":true},{"label":"智能家居","id":1266,"value":1266,"disabled":false,"checkbox":true},{"label":"3D打印","id":1267,"value":1267,"disabled":false,"checkbox":true},{"label":"其他","id":15009,"value":15009,"disabled":false,"checkbox":true}]},{"label":"游戏","id":1015,"value":1015,"disabled":false,"checkbox":false,"children":[{"label":"游戏","id":1015,"value":1015,"disabled":false,"checkbox":true},{"label":"社交游戏","id":1224,"value":1224,"disabled":false,"checkbox":true},{"label":"手游","id":1225,"value":1225,"disabled":false,"checkbox":true},{"label":"页游","id":1268,"value":1268,"disabled":false,"checkbox":true},{"label":"端游","id":1269,"value":1269,"disabled":false,"checkbox":true},{"label":"电视游戏","id":1270,"value":1270,"disabled":false,"checkbox":true},{"label":"体感游戏","id":1271,"value":1271,"disabled":false,"checkbox":true},{"label":"游戏开发者服务","id":1272,"value":1272,"disabled":false,"checkbox":true},{"label":"游戏发行","id":1273,"value":1273,"disabled":false,"checkbox":true},{"label":"游戏媒体","id":1274,"value":1274,"disabled":false,"checkbox":true},{"label":"其他","id":15000,"value":15000,"disabled":false,"checkbox":true}]},{"label":"文娱体育","id":1098,"value":1098,"disabled":false,"checkbox":false,"children":[{"label":"文娱体育","id":1098,"value":1098,"disabled":false,"checkbox":true},{"label":"IP","id":1201,"value":1201,"disabled":false,"checkbox":true},{"label":"电子竞技","id":1202,"value":1202,"disabled":false,"checkbox":true},{"label":"动漫","id":1203,"value":1203,"disabled":false,"checkbox":true},{"label":"媒体","id":1204,"value":1204,"disabled":false,"checkbox":true},{"label":"明星艺人","id":1205,"value":1205,"disabled":false,"checkbox":true},{"label":"设计及创意","id":1206,"value":1206,"disabled":false,"checkbox":true},{"label":"体育运动","id":1207,"value":1207,"disabled":false,"checkbox":true},{"label":"艺术","id":1208,"value":1208,"disabled":false,"checkbox":true},{"label":"音乐影视","id":1209,"value":1209,"disabled":false,"checkbox":true},{"label":"直播","id":1210,"value":1210,"disabled":false,"checkbox":true},{"label":"娱乐平台","id":1233,"value":1233,"disabled":false,"checkbox":true},{"label":"图片照片","id":1288,"value":1288,"disabled":false,"checkbox":true},{"label":"博彩","id":1289,"value":1289,"disabled":false,"checkbox":true},{"label":"休闲娱乐","id":1306,"value":1306,"disabled":false,"checkbox":true},{"label":"其他","id":15007,"value":15007,"disabled":false,"checkbox":true}]},{"label":"农业","id":1150,"value":1150,"disabled":false,"checkbox":false,"children":[{"label":"农业","id":1150,"value":1150,"disabled":false,"checkbox":true},{"label":"农机农资","id":1290,"value":1290,"disabled":false,"checkbox":true},{"label":"种植养殖","id":1291,"value":1291,"disabled":false,"checkbox":true},{"label":"农业信息化","id":1292,"value":1292,"disabled":false,"checkbox":true},{"label":"农产品","id":1293,"value":1293,"disabled":false,"checkbox":true},{"label":"农业技术","id":1294,"value":1294,"disabled":false,"checkbox":true},{"label":"其他","id":15015,"value":15015,"disabled":false,"checkbox":true}]},{"label":"物流","id":1151,"value":1151,"disabled":false,"checkbox":false,"children":[{"label":"物流","id":1151,"value":1151,"disabled":false,"checkbox":true},{"label":"货运物流","id":1295,"value":1295,"disabled":false,"checkbox":true},{"label":"仓储服务","id":1296,"value":1296,"disabled":false,"checkbox":true},{"label":"同城配送","id":1297,"value":1297,"disabled":false,"checkbox":true},{"label":"品牌快递","id":1298,"value":1298,"disabled":false,"checkbox":true},{"label":"综合物流","id":1299,"value":1299,"disabled":false,"checkbox":true},{"label":"其他","id":15016,"value":15016,"disabled":false,"checkbox":true}]},{"label":"先进制造","id":1152,"value":1152,"disabled":false,"checkbox":false,"children":[{"label":"先进制造","id":1152,"value":1152,"disabled":false,"checkbox":true},{"label":"物联网","id":1300,"value":1300,"disabled":false,"checkbox":true},{"label":"新能源材料","id":1301,"value":1301,"disabled":false,"checkbox":true},{"label":"节能环保","id":1302,"value":1302,"disabled":false,"checkbox":true},{"label":"军民融合","id":1303,"value":1303,"disabled":false,"checkbox":true},{"label":"工业升级","id":1304,"value":1304,"disabled":false,"checkbox":true},{"label":"大家好111","id":3571,"value":3571,"disabled":false,"checkbox":true},{"label":"其他","id":15017,"value":15017,"disabled":false,"checkbox":true}]},{"label":"123","id":3861,"value":3861,"disabled":false,"checkbox":false,"children":[{"label":"123","id":3861,"value":3861,"disabled":false,"checkbox":true},{"label":"aa","id":3862,"value":3862,"disabled":false,"checkbox":true}]},{"label":"321","id":3863,"value":3863,"disabled":false,"checkbox":false,"children":[{"label":"321","id":3863,"value":3863,"disabled":false,"checkbox":true}]},{"label":"Test DZHC","id":4018,"value":4018,"disabled":false,"checkbox":false,"children":[{"label":"Test DZHC","id":4018,"value":4018,"disabled":false,"checkbox":true},{"label":"sss","id":4025,"value":4025,"disabled":false,"checkbox":true}]},{"label":"K12教","id":5208,"value":5208,"disabled":false,"checkbox":false,"children":[{"label":"K12教","id":5208,"value":5208,"disabled":false,"checkbox":true}]}],
       outputs: {
         values: [],
         items: []
@@ -202,6 +39,11 @@ export default {
         isp: []
       }
     };
+  },
+  created () {
+    setTimeout(() => {
+      this.form.isp = []
+    }, 5000);
   },
   methods: {
     ispChange(values, items) {

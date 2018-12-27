@@ -165,8 +165,8 @@ export default {
     recursiveOpt(children) {
       const vm = this;
       children.forEach(child => {
+        child.checked = false;
         if (child.checkbox !== false) {
-          child.checked = false;
           if (this.selectedValues.some(val => val + "" == child.value + "")) {
             this.selectedItems.push(child);
             this.selectedLabels.push(child.label);
@@ -235,8 +235,10 @@ export default {
       let deletedItem = this.selectedItems.filter(
         item => !val.includes(item.label)
       )[0];
-      deletedItem.checked = false;
-      this.describeCheckedMap(deletedItem);
+      if (deletedItem) {
+        deletedItem.checked = false;
+        this.describeCheckedMap(deletedItem);
+      }
       this.selectedItems = this.selectedItems.filter(v =>
         this.selectedLabels.includes(v.label)
       );
