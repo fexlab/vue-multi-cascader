@@ -1,7 +1,7 @@
 {
   "name": "@felab/vue-multi-cascader",
   "description": "基于ElementUI二次开发的多选级联选择器",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "license": "MIT",
   "main": "lib/vue-multi-cascader.umd.min.js",
