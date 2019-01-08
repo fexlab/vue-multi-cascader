@@ -16,7 +16,7 @@
   "homepage": "https://github.com/fexlab/vue-multi-cascader",
   "bugs": "https://github.com/fexlab/vue-multi-cascader/issues",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib --name vue-multi-cascader --dest lib packages/index.js",
     "lint": "vue-cli-service lint"

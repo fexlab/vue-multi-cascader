@@ -3,14 +3,19 @@ import { Checkbox, Cascader, Select, Option, Popover } from 'element-ui'
 import App from './App.vue'
 
 // 导入组件库
-import MultiCascader from './../packages/index'
+// import { VMultiCascader } from '../packages/index.js'
+// Vue.component(VMultiCascader.name, VMultiCascader)
+
+import VMultiCascader from '../packages/index.js'
+Vue.use(VMultiCascader)
+
 // 注册组件库
 Vue.use(Checkbox)
 Vue.use(Cascader)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Popover)
-Vue.use(MultiCascader)
+
 
 Vue.config.productionTip = false
 

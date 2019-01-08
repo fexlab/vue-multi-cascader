@@ -301,7 +301,7 @@ export default {
 }
 .v-cascader-popper {
   width: 100%;
-  padding: 0px;
+  padding: 0px !important;
 }
 .v-cascader-menu {
   width: 160px !important;

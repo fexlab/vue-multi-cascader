@@ -21,10 +21,19 @@ yarn add @felab/vue-multi-cascader
 
 ```js
 // main.js
-import VMultiCascader from "@felab/vue-multi-cascader"
-
+import Element from 'element-ui'
 Vue.use(Element)
+
+import VMultiCascader from "@felab/vue-multi-cascader"
 Vue.use(VMultiCascader)
+
+// or
+
+import { VMultiCascader } from "@felab/vue-multi-cascader"
+Vue.component(VMultiCascader.name, VMultiCascader)
+
+
+
 ```
 
 ### Attributes
