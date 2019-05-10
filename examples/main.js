@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Checkbox, Cascader, Select, Option, Popover } from 'element-ui'
+import { Checkbox, Cascader, Select, Option, Popover, Button } from 'element-ui'
 import App from './App.vue'
 
 // 导入组件库
@@ -15,6 +15,7 @@ Vue.use(Cascader)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Popover)
+Vue.use(Button)
 
 
 Vue.config.productionTip = false

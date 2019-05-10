@@ -7,6 +7,11 @@
         v-model="form.isp"
         placeholder="选择运营商"
         @change="ispChange"/>
+
+      <div class="demo-action">
+        <el-button size="small" type="primary" @click="handleSet">负值</el-button>
+        <el-button size="small" @click="handleClear">清空</el-button>
+      </div>
     </div>
   </div>
 </template>
@@ -40,15 +45,16 @@ export default {
       }
     };
   },
-  created () {
-    setTimeout(() => {
-      this.form.isp = []
-    }, 5000);
-  },
   methods: {
     ispChange(values, items) {
       this.outputs.values = values;
       this.outputs.items = items;
+    },
+    handleSet() {
+      this.form.isp = [3571, 1304, 1230]
+    },
+    handleClear() {
+      this.form.isp = []
     }
   }
 };
@@ -62,5 +68,8 @@ export default {
   width: 400px;
   height: 500px;
   margin: 50px auto 0;
+}
+.demo-action {
+  margin-top: 15px;
 }
 </style>

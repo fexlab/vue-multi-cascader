@@ -112,8 +112,7 @@ export default {
       casTree: [],
       selectedItems: [],
       selectedLabels: [],
-      selectedValues: [],
-      hasInitModel: false
+      selectedValues: []
     };
   },
   watch: {
@@ -124,18 +123,14 @@ export default {
       }
     },
     value: {
-      deep: true,
+      immediate: true,
       handler() {
-        if (!this.hasInitModel) {
-          this.initDatas();
-          this.hasInitModel = true;
-        }
+        this.initDatas();
       }
     }
   },
   created() {
     this.initOpts();
-    this.initDatas();
   },
   mounted() {
     // 设置弹出层宽度
